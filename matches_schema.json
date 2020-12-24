@@ -1,0 +1,189 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "required": [],
+        "properties": {
+            "match_id": {
+                "type": "string"
+            },
+            "lobby_id": {
+                "type": "string"
+            },
+            "match_uuid": {
+                "type": "string"
+            },
+            "version": {
+                "type": "string"
+            },
+            "name": {
+                "type": "string"
+            },
+            "num_players": {
+                "type": "number"
+            },
+            "num_slots": {
+                "type": "number"
+            },
+            "average_rating": {
+                "type": "string"
+            },
+            "cheats": {
+                "type": "string"
+            },
+            "full_tech_tree": {
+                "type": "string"
+            },
+            "ending_age": {
+                "type": "number"
+            },
+            "expansion": {
+                "type": "string"
+            },
+            "game_type": {
+                "type": "string"
+            },
+            "has_custom_content": {
+                "type": "string"
+            },
+            "has_password": {
+                "type": "boolean"
+            },
+            "lock_speed": {
+                "type": "boolean"
+            },
+            "lock_teams": {
+                "type": "boolean"
+            },
+            "map_size": {
+                "type": "string"
+            },
+            "map_type": {
+                "type": "number"
+            },
+            "pop": {
+                "type": "number"
+            },
+            "ranked": {
+                "type": "boolean"
+            },
+            "leaderboard_id": {
+                "type": "number"
+            },
+            "rating_type": {
+                "type": "number"
+            },
+            "resources": {
+                "type": "string"
+            },
+            "rms": {
+                "type": "string"
+            },
+            "scenario": {
+                "type": "string"
+            },
+            "server": {
+                "type": "string"
+            },
+            "shared_exploration": {
+                "type": "string"
+            },
+            "speed": {
+                "type": "number"
+            },
+            "starting_age": {
+                "type": "string"
+            },
+            "team_together": {
+                "type": "boolean"
+            },
+            "team_positions": {
+                "type": "boolean"
+            },
+            "treaty_length": {
+                "type": "string"
+            },
+            "turbo": {
+                "type": "string"
+            },
+            "victory": {
+                "type": "number"
+            },
+            "victory_time": {
+                "type": "string"
+            },
+            "visibility": {
+                "type": "string"
+            },
+            "opened": {
+                "type": "number"
+            },
+            "started": {
+                "type": "number"
+            },
+            "finished": {
+                "type": "number"
+            },
+            "players": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "required": [],
+                    "properties": {
+                        "profile_id": {
+                            "type": "number"
+                        },
+                        "steam_id": {
+                            "type": "string"
+                        },
+                        "name": {
+                            "type": "string"
+                        },
+                        "clan": {
+                            "type": "string"
+                        },
+                        "country": {
+                            "type": "string"
+                        },
+                        "slot": {
+                            "type": "number"
+                        },
+                        "slot_type": {
+                            "type": "number"
+                        },
+                        "rating": {
+                            "type": "number"
+                        },
+                        "rating_change": {
+                            "type": "number"
+                        },
+                        "games": {
+                            "type": "string"
+                        },
+                        "wins": {
+                            "type": "string"
+                        },
+                        "streak": {
+                            "type": "string"
+                        },
+                        "drops": {
+                            "type": "string"
+                        },
+                        "color": {
+                            "type": "number"
+                        },
+                        "team": {
+                            "type": "number"
+                        },
+                        "civ": {
+                            "type": "number"
+                        },
+                        "won": {
+                            "type": "boolean"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
